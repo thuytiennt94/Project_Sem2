@@ -1,0 +1,155 @@
+.profile-section , .edit-profile-section{
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.form-profile h3{
+    float: left;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #75b239;
+    color: #fff;
+    padding: 8px 20px;
+    float: right;
+    font-size: 15px;
+}
+
+.container h3{
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.profile-section .container{
+    border: 1px solid #EDECED;
+    box-shadow: 5px 5px 5px #EDECED;
+    display: flex;
+}
+
+.profile-section .container .col-lg-3, .col-lg-5 {
+    border-right: 2px solid #EDECED;
+
+}
+
+.profile-section .container,.edit-profile-section .container {
+    border: 1px solid #EDECED;
+    box-shadow: 5px 5px 5px #EDECED;
+    display: flex;
+}
+
+.edit-profile-section .container.container-form{
+    border: 0;
+    box-shadow: none;
+    display: flex;
+}
+
+.tbl-profile {
+    clear: both;
+    font-size: 16px;
+}
+.tbl-profile th{
+    font-weight: 500;
+    padding: 10px 70px 10px 5px;
+}
+.img-profile{
+    display: flex;
+}
+.img-profile img{
+    border-radius: 100%;
+    margin: 0 auto ;
+    display: block;
+    width: 150px;
+    height: 150px;
+    /*clip-path: circle(90px at 50% 50%);
+    background-image: url();*/
+    margin-top: 15px;
+
+}
+.edit-profile-section .col-lg-3, .col-lg-5 {
+    border-right: 2px solid #EDECED;
+
+}
+.col-lg-3 .text-profile{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form-profile {
+    margin: 15px 20px;
+}
+
+.form-setting{
+    clear: both;
+    margin: 20px 0px;
+}
+.group-setting{
+    margin-top: 10px;
+    display: block;
+}
+.group-setting label{
+    margin: 0;
+    font-size: 16px;
+}
+
+.inp-text{
+    width: 100%;
+}
+.btn-save{
+    text-align: center;
+    margin:auto;
+    display:block;
+    border: 0;
+    padding: 10px 20px;
+    background-color: #75b239;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 00;
+}
+.btn-save:hover{
+    background-color: #336504;
+    transition: all 0.3s;
+}
+
+.associate{
+    margin: 15px 20px;
+}
+a.btn-connect{
+    text-align: center;
+    border: 1px solid slategrey;
+    padding: 5px 20px;
+    box-shadow: 3px 3px #efefee;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 20px;
+}
+
+table.tbl-connect {
+    clear: both;
+    width: 100%;
+
+}
+.tbl-connect tr{
+    border-bottom: 1px solid #EDECED;
+    padding: 5px 10px;
+}
+ table.tbl-connect tr th{
+    padding: 8px 0px;
+     font-size: 1.5rem;
+}
+/*table.tbl-connect tr td{
+    padding-bottom: 20px;
+} */
+table.tbl-connect tr td a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+.form-profile-setting{
+    margin: 15px 20px;
+}

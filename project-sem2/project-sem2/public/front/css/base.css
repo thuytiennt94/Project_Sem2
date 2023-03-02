@@ -1,0 +1,97 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #75b239;
+    --header-color-active: #336504;
+    --border-color: #d6d2d2;
+    --icon-color: #666666;
+    --margin-left: 170px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+/* Overlay */
+.overlay--white {
+    background-color: var(--white-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rotate-90deg {
+    0% {
+        transform: none;
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+}
+
+@keyframes translateUpSlider {
+    from {
+        transform: translateY(120px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInControl {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* CSS */
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.pr-12 {
+    padding-right: 12px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
